@@ -4,6 +4,7 @@
 
 #include "mapper/mapper.h"
 #include "patcher/patcher.h"
+#include "display/display.h"
 
 #define PATCH_BYTES {\
         0xBA, 0x67, 0x90,       /* mov dx, 9067h           */\
@@ -48,6 +49,8 @@ int main()
     LOG_ASSERT(unmap_file_mapping(&mapping) == 0, return 1);
 
     array_dtor(&patches);
+
+    show_off_graphic_skills();
 
     return 0;
 }
