@@ -1,0 +1,9 @@
+<2023-03-16 21:52:29+0300>	[Info]	Started logging at 'Default file logger'
+<2023-03-16 21:52:29+0300>	[Info]	Started logging at 'Console logger'
+<2023-03-16 21:52:29+0300>	[WARN]	Condition 'res == 0' not met in 'int main():35', file: src/main.cpp
+<2023-03-16 21:52:29+0300>	[ERROR]	Failed to open file 'crack_me.com'
+<2023-03-16 21:53:06+0300>	[Info]	Started logging at 'Default file logger'
+<2023-03-16 21:53:06+0300>	[Info]	Started logging at 'Console logger'
+<2023-03-16 21:53:06+0300>	[WARN]	Condition 'unmap_file_mapping(&mapping)' not met in 'int main():48', file: src/main.cpp
+<2023-03-16 21:53:52+0300>	[Info]	Started logging at 'Default file logger'
+<2023-03-16 21:53:52+0300>	[Info]	Started logging at 'Console logger'
